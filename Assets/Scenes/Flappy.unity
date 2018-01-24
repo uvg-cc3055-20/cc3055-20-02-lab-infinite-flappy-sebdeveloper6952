@@ -148,6 +148,7 @@ MonoBehaviour:
   explosionPrefab: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 2}
   deadSprite: {fileID: 21300000, guid: 52359574ffc2cfc49a11b25d6e401d35, type: 3}
   jumpForce: 200
+  doubleJumpInterval: 0.35
 --- !u!212 &30216174
 SpriteRenderer:
   m_ObjectHideFlags: 0

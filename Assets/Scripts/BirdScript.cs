@@ -7,6 +7,7 @@ public class BirdScript : MonoBehaviour
     public GameObject explosionPrefab;
     public Sprite deadSprite;
     public float jumpForce = 200f;
+    public float doubleJumpInterval = 1f;
 
     private Rigidbody2D rb;
     private AudioSource audioSource;

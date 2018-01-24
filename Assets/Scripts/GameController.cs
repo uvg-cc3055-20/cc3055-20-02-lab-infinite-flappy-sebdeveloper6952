@@ -28,9 +28,11 @@ public class GameController : MonoBehaviour
     {
         score++;
         textScore.text = string.Concat("Score: ", score);
-        if(score % 5 == 0)
+        if(score % 5 == 0) // increase column speed
         {
             colSpawner.columnSpeed += 0.25f;
+            if(colSpawner.spawnTime > 0.5f)
+                colSpawner.spawnTime -= 0.5f;
         }
     }
 
